@@ -4,17 +4,17 @@
 
 ## 2. application.properties 파일을 작성한다.
 
-# MySQL8 설정
+MySQL8 설정(주석 처리할 것)
 spring.datasource.url=jdbc:mysql://localhost:3306/mychat?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
 spring.datasource.username=root
 spring.datasource.password=1234
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-# 콘솔에 SQL 출력 여부
+콘솔에 SQL 출력 여부(주석 처리할 것)
 spring.jpa.show-sql=true
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 
-# hibernate 설정
+hibernate 설정(주석 처리할 것)
 spring.jpa.database=mysql
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.hibernate.naming.strategy=org.hibernate.cfg.ImprovedNamingStrategy
