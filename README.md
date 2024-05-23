@@ -4,7 +4,8 @@
 
 ## 2. application.properties 파일을 작성한다.
 
-```MySQL8 설정(주석 처리할 것)
+```
+MySQL8 설정(주석 처리할 것)
 spring.datasource.url=jdbc:mysql://localhost:3306/mychat?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
 spring.datasource.username=root
 spring.datasource.password=1234
