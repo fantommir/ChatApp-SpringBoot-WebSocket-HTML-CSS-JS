@@ -4,7 +4,7 @@
 
 ## 2. application.properties 파일을 작성한다.
 
-MySQL8 설정(주석 처리할 것)
+```MySQL8 설정(주석 처리할 것)
 spring.datasource.url=jdbc:mysql://localhost:3306/mychat?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
 spring.datasource.username=root
 spring.datasource.password=1234
@@ -22,7 +22,7 @@ spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.Ph
 spring.jpa.generate-ddl=false
 spring.jpa.properties.hibernate.format_sql=true
 spring.jpa.properties.hibernate.enable_lazy_load_no_trans=true
-
+```
 # 실행 이전에 준비 작업 끝
 
 # CHATOUUS - Real-Time Chat Application
