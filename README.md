@@ -26,6 +26,15 @@ spring.jpa.properties.hibernate.enable_lazy_load_no_trans=true
 ```
 # 실행 이전에 준비 작업 끝
 
+# 실행을 위한 계정이 DB에 미리 만들어지는 프로젝트이다
+Admin Demo Account:
+Username: admin1
+Password: demo1234
+
+User Demo Account:
+Username: user1
+Password: demo1234
+
 # CHATOUUS - Real-Time Chat Application
 
 ## Overview
